@@ -15,7 +15,5 @@
 # vendor/
 
 env.toml
-
- .DS_Store
-
- storage/logs/*
+.DS_Store
+storage/logs/*
