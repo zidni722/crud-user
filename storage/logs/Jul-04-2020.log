@@ -1,0 +1,816 @@
+[ERRO] 2020/07/04 10:24 listen tcp :9090: bind: address already in use
+Now listening on: http://localhost:9090
+Application started. Press CMD+C to shut down.
+[INFO] 2020/07/04 10:25 200 355.381µs ::1 GET /
+[INFO] 2020/07/04 10:26 200 116.674µs ::1 GET /
+[INFO] 2020/07/04 10:26 200 398.351µs ::1 GET /
+[ERRO] 2020/07/04 10:26 http: Server closed
+Now listening on: http://localhost:9090
+Application started. Press CMD+C to shut down.
+[INFO] 2020/07/04 10:26 200 630.234µs ::1 GET /
+[ERRO] 2020/07/04 11:03 http: Server closed
+Now listening on: http://localhost:9090
+Application started. Press CMD+C to shut down.
+[INFO] 2020/07/04 11:04 200 902.147µs ::1 GET /
+[WARN] 2020/07/04 11:04 Recovered from a route's Handler('github.com/zidni722/crud-user/app/web/controllers.(*UserController).GetUserHandler-fm')
+At Request: 200 /users GET ::1
+Trace: interface conversion: interface {} is *models.User, not *[]models.User
+
+/usr/local/Cellar/go/1.14/libexec/src/runtime/panic.go:967
+/usr/local/Cellar/go/1.14/libexec/src/runtime/iface.go:260
+/Users/zidni/Sites/crud-user/app/repositories/impl/user_repository_impl.go:19
+/Users/zidni/Sites/crud-user/app/web/controllers/user_controller.go:69
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/middleware/logger/logger.go:50
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/middleware/recover/recover.go:56
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:922
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1094
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/handler.go:227
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/router.go:84
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/router.go:161
+/usr/local/Cellar/go/1.14/libexec/src/net/http/server.go:2807
+/usr/local/Cellar/go/1.14/libexec/src/net/http/server.go:1895
+/usr/local/Cellar/go/1.14/libexec/src/runtime/asm_amd64.s:1373
+
+[WARN] 2020/07/04 11:04 Recovered from a route's Handler('github.com/zidni722/crud-user/app/web/controllers.(*UserController).GetUserHandler-fm')
+At Request: 200 /users GET ::1
+Trace: interface conversion: interface {} is *models.User, not *[]models.User
+
+/usr/local/Cellar/go/1.14/libexec/src/runtime/panic.go:967
+/usr/local/Cellar/go/1.14/libexec/src/runtime/iface.go:260
+/Users/zidni/Sites/crud-user/app/repositories/impl/user_repository_impl.go:19
+/Users/zidni/Sites/crud-user/app/web/controllers/user_controller.go:69
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/middleware/logger/logger.go:50
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/middleware/recover/recover.go:56
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:922
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1094
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/handler.go:227
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/router.go:84
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/router.go:161
+/usr/local/Cellar/go/1.14/libexec/src/net/http/server.go:2807
+/usr/local/Cellar/go/1.14/libexec/src/net/http/server.go:1895
+/usr/local/Cellar/go/1.14/libexec/src/runtime/asm_amd64.s:1373
+
+[ERRO] 2020/07/04 11:10 http: Server closed
+Now listening on: http://localhost:9090
+Application started. Press CMD+C to shut down.
+[INFO] 2020/07/04 11:10 200 6.231571ms ::1 GET /users
+[INFO] 2020/07/04 11:11 200 798.783µs ::1 GET /users
+[INFO] 2020/07/04 11:11 200 541.425µs ::1 GET /users
+[ERRO] 2020/07/04 11:12 http: Server closed
+Now listening on: http://localhost:9090
+Application started. Press CMD+C to shut down.
+[INFO] 2020/07/04 11:12 200 3.456375ms ::1 GET /users
+[ERRO] 2020/07/04 11:15 http: Server closed
+Now listening on: http://localhost:9090
+Application started. Press CMD+C to shut down.
+[INFO] 2020/07/04 11:15 200 1.508218ms ::1 GET /users
+[ERRO] 2020/07/04 11:23 http: Server closed
+Now listening on: http://localhost:9090
+Application started. Press CMD+C to shut down.
+[INFO] 2020/07/04 11:23 200 5.997833ms ::1 GET /users/1
+[INFO] 2020/07/04 11:24 200 400.024µs ::1 GET /users
+[INFO] 2020/07/04 11:24 200 2.328335ms ::1 GET /users/1
+[INFO] 2020/07/04 13:51 200 5.642839ms ::1 GET /users/1
+[INFO] 2020/07/04 13:51 200 1.384999ms ::1 GET /users/1
+[ERRO] 2020/07/04 13:51 http: Server closed
+Now listening on: http://localhost:9090
+Application started. Press CMD+C to shut down.
+[INFO] 2020/07/04 13:51 200 5.595461ms ::1 GET /users/1
+[INFO] 2020/07/04 13:51 200 1.13111ms ::1 GET /users/1
+[INFO] 2020/07/04 13:51 200 956.021µs ::1 GET /users/1
+[INFO] 2020/07/04 13:51 200 887.383µs ::1 GET /users/1
+[INFO] 2020/07/04 13:51 200 704.361µs ::1 GET /users/1
+[INFO] 2020/07/04 13:51 200 511.042µs ::1 GET /users/1
+[INFO] 2020/07/04 13:51 200 1.079031ms ::1 GET /users/1
+[INFO] 2020/07/04 13:51 200 470.133µs ::1 GET /users/1
+[INFO] 2020/07/04 13:51 200 764.114µs ::1 GET /users
+[INFO] 2020/07/04 13:51 200 383.394µs ::1 GET /users
+[INFO] 2020/07/04 13:51 200 324.519µs ::1 GET /users
+[INFO] 2020/07/04 13:51 200 539.656µs ::1 GET /users/1
+[ERRO] 2020/07/04 13:55 http: Server closed
+Now listening on: http://localhost:9090
+Application started. Press CMD+C to shut down.
+[INFO] 2020/07/04 13:56 400 1.791211ms ::1 POST /users
+[ERRO] 2020/07/04 14:02 http: Server closed
+Now listening on: http://localhost:9090
+Application started. Press CMD+C to shut down.
+[INFO] 2020/07/04 14:06 {[1] ::1 ▶ POST:/users 0xc0003c7040 {<nil> asri722 asri722@gmail.com cirebon password} 0x52a8118}
+[INFO] 2020/07/04 14:06 201 177.990789ms ::1 POST /users
+[INFO] 2020/07/04 14:06 200 825.467µs ::1 GET /users
+[ERRO] 2020/07/04 14:14 http: Server closed
+Now listening on: http://localhost:9090
+Application started. Press CMD+C to shut down.
+[INFO] 2020/07/04 14:15 200 2.02135ms ::1 GET /users
+[INFO] 2020/07/04 14:15 200 1.295495ms ::1 GET /users/2
+[INFO] 2020/07/04 14:15 200 476.54µs ::1 GET /users/1
+[INFO] 2020/07/04 14:15 200 656.621µs ::1 GET /
+[INFO] 2020/07/04 14:15 200 102.929µs ::1 GET /
+[INFO] 2020/07/04 14:15 200 92.579µs ::1 GET /
+[INFO] 2020/07/04 14:16 200 4.438839ms ::1 GET /users/1
+[INFO] 2020/07/04 14:16 200 3.420616ms ::1 GET /users/2
+[INFO] 2020/07/04 14:17 200 531.505µs ::1 GET /users/1
+[ERRO] 2020/07/04 14:45 http: Server closed
+Now listening on: http://localhost:9090
+Application started. Press CMD+C to shut down.
+[ERRO] 2020/07/04 14:46 http: Server closed
+Now listening on: http://localhost:9090
+Application started. Press CMD+C to shut down.
+[ERRO] 2020/07/04 14:47 http: Server closed
+Now listening on: http://localhost:9090
+Application started. Press CMD+C to shut down.
+[WARN] 2020/07/04 14:47 Recovered from a route's Handler('github.com/zidni722/crud-user/app/web/controllers.(*UserController).UpdateUserHandler-fm')
+At Request: 200 /users/2 PUT ::1
+Trace: interface conversion: interface {} is nil, not models.User
+
+/usr/local/Cellar/go/1.14/libexec/src/runtime/panic.go:967
+/usr/local/Cellar/go/1.14/libexec/src/runtime/iface.go:260
+/Users/zidni/Sites/crud-user/app/web/controllers/user_controller.go:114
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/middleware/logger/logger.go:50
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/middleware/recover/recover.go:56
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/macro/handler/handler.go:54
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:922
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1094
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/handler.go:227
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/router.go:84
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/router.go:161
+/usr/local/Cellar/go/1.14/libexec/src/net/http/server.go:2807
+/usr/local/Cellar/go/1.14/libexec/src/net/http/server.go:1895
+/usr/local/Cellar/go/1.14/libexec/src/runtime/asm_amd64.s:1373
+
+[WARN] 2020/07/04 14:47 Recovered from a route's Handler('github.com/zidni722/crud-user/app/web/controllers.(*UserController).UpdateUserHandler-fm')
+At Request: 200 /users/2 PUT ::1
+Trace: interface conversion: interface {} is nil, not models.User
+
+/usr/local/Cellar/go/1.14/libexec/src/runtime/panic.go:967
+/usr/local/Cellar/go/1.14/libexec/src/runtime/iface.go:260
+/Users/zidni/Sites/crud-user/app/web/controllers/user_controller.go:114
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/middleware/logger/logger.go:50
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/middleware/recover/recover.go:56
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/macro/handler/handler.go:54
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:922
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1094
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/handler.go:227
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/router.go:84
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/router.go:161
+/usr/local/Cellar/go/1.14/libexec/src/net/http/server.go:2807
+/usr/local/Cellar/go/1.14/libexec/src/net/http/server.go:1895
+/usr/local/Cellar/go/1.14/libexec/src/runtime/asm_amd64.s:1373
+
+[ERRO] 2020/07/04 14:47 invalid character '}' looking for beginning of object key string
+
+github.com/zidni722/crud-user/app/web/response.InternalServerErrorResponse
+	/Users/zidni/Sites/crud-user/app/web/response/base_response.go:91
+github.com/zidni722/crud-user/app/web/controllers.(*UserController).UpdateUserHandler
+	/Users/zidni/Sites/crud-user/app/web/controllers/user_controller.go:105
+github.com/kataras/iris/context.DefaultNext
+	/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+github.com/kataras/iris/context.(*context).Next
+	/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+github.com/kataras/iris/middleware/logger.(*requestLoggerMiddleware).ServeHTTP
+	/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/middleware/logger/logger.go:50
+github.com/kataras/iris/context.DefaultNext
+	/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+github.com/kataras/iris/context.(*context).Next
+	/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+github.com/kataras/iris/middleware/recover.New.func1
+	/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/middleware/recover/recover.go:56
+github.com/kataras/iris/context.DefaultNext
+	/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+github.com/kataras/iris/context.(*context).Next
+	/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+github.com/kataras/iris/macro/handler.MakeHandler.func1
+	/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/macro/handler/handler.go:54
+github.com/kataras/iris/context.Do
+	/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:922
+github.com/kataras/iris/context.(*context).Do
+	/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1094
+github.com/kataras/iris/core/router.(*routerHandler).HandleRequest
+	/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/handler.go:227
+github.com/kataras/iris/core/router.(*Router).BuildRouter.func1
+	/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/router.go:84
+github.com/kataras/iris/core/router.(*Router).ServeHTTP
+	/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/router.go:161
+net/http.serverHandler.ServeHTTP
+	/usr/local/Cellar/go/1.14/libexec/src/net/http/server.go:2807
+net/http.(*conn).serve
+	/usr/local/Cellar/go/1.14/libexec/src/net/http/server.go:1895
+runtime.goexit
+	/usr/local/Cellar/go/1.14/libexec/src/runtime/asm_amd64.s:1373
+[INFO] 2020/07/04 14:47 500 554.463µs ::1 PUT /users/2
+[INFO] 2020/07/04 14:47 400 2.149452ms ::1 PUT /users/2
+[WARN] 2020/07/04 14:48 Recovered from a route's Handler('github.com/zidni722/crud-user/app/web/controllers.(*UserController).UpdateUserHandler-fm')
+At Request: 200 /users/2 PUT ::1
+Trace: interface conversion: interface {} is nil, not models.User
+
+/usr/local/Cellar/go/1.14/libexec/src/runtime/panic.go:967
+/usr/local/Cellar/go/1.14/libexec/src/runtime/iface.go:260
+/Users/zidni/Sites/crud-user/app/web/controllers/user_controller.go:114
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/middleware/logger/logger.go:50
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/middleware/recover/recover.go:56
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/macro/handler/handler.go:54
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:922
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1094
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/handler.go:227
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/router.go:84
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/router.go:161
+/usr/local/Cellar/go/1.14/libexec/src/net/http/server.go:2807
+/usr/local/Cellar/go/1.14/libexec/src/net/http/server.go:1895
+/usr/local/Cellar/go/1.14/libexec/src/runtime/asm_amd64.s:1373
+
+[WARN] 2020/07/04 14:48 Recovered from a route's Handler('github.com/zidni722/crud-user/app/web/controllers.(*UserController).UpdateUserHandler-fm')
+At Request: 200 /users/2 PUT ::1
+Trace: interface conversion: interface {} is nil, not models.User
+
+/usr/local/Cellar/go/1.14/libexec/src/runtime/panic.go:967
+/usr/local/Cellar/go/1.14/libexec/src/runtime/iface.go:260
+/Users/zidni/Sites/crud-user/app/web/controllers/user_controller.go:114
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/middleware/logger/logger.go:50
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/middleware/recover/recover.go:56
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/macro/handler/handler.go:54
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:922
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1094
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/handler.go:227
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/router.go:84
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/router.go:161
+/usr/local/Cellar/go/1.14/libexec/src/net/http/server.go:2807
+/usr/local/Cellar/go/1.14/libexec/src/net/http/server.go:1895
+/usr/local/Cellar/go/1.14/libexec/src/runtime/asm_amd64.s:1373
+
+[WARN] 2020/07/04 14:48 Recovered from a route's Handler('github.com/zidni722/crud-user/app/web/controllers.(*UserController).UpdateUserHandler-fm')
+At Request: 200 /users/2 PUT ::1
+Trace: interface conversion: interface {} is nil, not models.User
+
+/usr/local/Cellar/go/1.14/libexec/src/runtime/panic.go:967
+/usr/local/Cellar/go/1.14/libexec/src/runtime/iface.go:260
+/Users/zidni/Sites/crud-user/app/web/controllers/user_controller.go:114
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/middleware/logger/logger.go:50
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/middleware/recover/recover.go:56
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/macro/handler/handler.go:54
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:922
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1094
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/handler.go:227
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/router.go:84
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/router.go:161
+/usr/local/Cellar/go/1.14/libexec/src/net/http/server.go:2807
+/usr/local/Cellar/go/1.14/libexec/src/net/http/server.go:1895
+/usr/local/Cellar/go/1.14/libexec/src/runtime/asm_amd64.s:1373
+
+[WARN] 2020/07/04 14:48 Recovered from a route's Handler('github.com/zidni722/crud-user/app/web/controllers.(*UserController).UpdateUserHandler-fm')
+At Request: 200 /users/2 PUT ::1
+Trace: interface conversion: interface {} is nil, not models.User
+
+/usr/local/Cellar/go/1.14/libexec/src/runtime/panic.go:967
+/usr/local/Cellar/go/1.14/libexec/src/runtime/iface.go:260
+/Users/zidni/Sites/crud-user/app/web/controllers/user_controller.go:114
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/middleware/logger/logger.go:50
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/middleware/recover/recover.go:56
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/macro/handler/handler.go:54
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:922
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1094
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/handler.go:227
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/router.go:84
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/router.go:161
+/usr/local/Cellar/go/1.14/libexec/src/net/http/server.go:2807
+/usr/local/Cellar/go/1.14/libexec/src/net/http/server.go:1895
+/usr/local/Cellar/go/1.14/libexec/src/runtime/asm_amd64.s:1373
+
+[WARN] 2020/07/04 14:48 Recovered from a route's Handler('github.com/zidni722/crud-user/app/web/controllers.(*UserController).UpdateUserHandler-fm')
+At Request: 200 /users/2 PUT ::1
+Trace: interface conversion: interface {} is nil, not models.User
+
+/usr/local/Cellar/go/1.14/libexec/src/runtime/panic.go:967
+/usr/local/Cellar/go/1.14/libexec/src/runtime/iface.go:260
+/Users/zidni/Sites/crud-user/app/web/controllers/user_controller.go:114
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/middleware/logger/logger.go:50
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/middleware/recover/recover.go:56
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/macro/handler/handler.go:54
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:922
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1094
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/handler.go:227
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/router.go:84
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/router.go:161
+/usr/local/Cellar/go/1.14/libexec/src/net/http/server.go:2807
+/usr/local/Cellar/go/1.14/libexec/src/net/http/server.go:1895
+/usr/local/Cellar/go/1.14/libexec/src/runtime/asm_amd64.s:1373
+
+[WARN] 2020/07/04 14:48 Recovered from a route's Handler('github.com/zidni722/crud-user/app/web/controllers.(*UserController).UpdateUserHandler-fm')
+At Request: 200 /users/2 PUT ::1
+Trace: interface conversion: interface {} is nil, not models.User
+
+/usr/local/Cellar/go/1.14/libexec/src/runtime/panic.go:967
+/usr/local/Cellar/go/1.14/libexec/src/runtime/iface.go:260
+/Users/zidni/Sites/crud-user/app/web/controllers/user_controller.go:114
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/middleware/logger/logger.go:50
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/middleware/recover/recover.go:56
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/macro/handler/handler.go:54
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:922
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1094
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/handler.go:227
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/router.go:84
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/router.go:161
+/usr/local/Cellar/go/1.14/libexec/src/net/http/server.go:2807
+/usr/local/Cellar/go/1.14/libexec/src/net/http/server.go:1895
+/usr/local/Cellar/go/1.14/libexec/src/runtime/asm_amd64.s:1373
+
+[WARN] 2020/07/04 14:48 Recovered from a route's Handler('github.com/zidni722/crud-user/app/web/controllers.(*UserController).UpdateUserHandler-fm')
+At Request: 200 /users/2 PUT ::1
+Trace: interface conversion: interface {} is nil, not models.User
+
+/usr/local/Cellar/go/1.14/libexec/src/runtime/panic.go:967
+/usr/local/Cellar/go/1.14/libexec/src/runtime/iface.go:260
+/Users/zidni/Sites/crud-user/app/web/controllers/user_controller.go:114
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/middleware/logger/logger.go:50
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/middleware/recover/recover.go:56
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/macro/handler/handler.go:54
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:922
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1094
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/handler.go:227
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/router.go:84
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/router.go:161
+/usr/local/Cellar/go/1.14/libexec/src/net/http/server.go:2807
+/usr/local/Cellar/go/1.14/libexec/src/net/http/server.go:1895
+/usr/local/Cellar/go/1.14/libexec/src/runtime/asm_amd64.s:1373
+
+[WARN] 2020/07/04 14:48 Recovered from a route's Handler('github.com/zidni722/crud-user/app/web/controllers.(*UserController).UpdateUserHandler-fm')
+At Request: 200 /users/2 PUT ::1
+Trace: interface conversion: interface {} is nil, not models.User
+
+/usr/local/Cellar/go/1.14/libexec/src/runtime/panic.go:967
+/usr/local/Cellar/go/1.14/libexec/src/runtime/iface.go:260
+/Users/zidni/Sites/crud-user/app/web/controllers/user_controller.go:114
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/middleware/logger/logger.go:50
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/middleware/recover/recover.go:56
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/macro/handler/handler.go:54
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:922
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1094
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/handler.go:227
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/router.go:84
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/router.go:161
+/usr/local/Cellar/go/1.14/libexec/src/net/http/server.go:2807
+/usr/local/Cellar/go/1.14/libexec/src/net/http/server.go:1895
+/usr/local/Cellar/go/1.14/libexec/src/runtime/asm_amd64.s:1373
+
+[WARN] 2020/07/04 14:48 Recovered from a route's Handler('github.com/zidni722/crud-user/app/web/controllers.(*UserController).UpdateUserHandler-fm')
+At Request: 200 /users/2 PUT ::1
+Trace: interface conversion: interface {} is nil, not models.User
+
+/usr/local/Cellar/go/1.14/libexec/src/runtime/panic.go:967
+/usr/local/Cellar/go/1.14/libexec/src/runtime/iface.go:260
+/Users/zidni/Sites/crud-user/app/web/controllers/user_controller.go:114
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/middleware/logger/logger.go:50
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/middleware/recover/recover.go:56
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/macro/handler/handler.go:54
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:922
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1094
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/handler.go:227
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/router.go:84
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/router.go:161
+/usr/local/Cellar/go/1.14/libexec/src/net/http/server.go:2807
+/usr/local/Cellar/go/1.14/libexec/src/net/http/server.go:1895
+/usr/local/Cellar/go/1.14/libexec/src/runtime/asm_amd64.s:1373
+
+[WARN] 2020/07/04 14:48 Recovered from a route's Handler('github.com/zidni722/crud-user/app/web/controllers.(*UserController).UpdateUserHandler-fm')
+At Request: 200 /users/2 PUT ::1
+Trace: interface conversion: interface {} is nil, not models.User
+
+/usr/local/Cellar/go/1.14/libexec/src/runtime/panic.go:967
+/usr/local/Cellar/go/1.14/libexec/src/runtime/iface.go:260
+/Users/zidni/Sites/crud-user/app/web/controllers/user_controller.go:114
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/middleware/logger/logger.go:50
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/middleware/recover/recover.go:56
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/macro/handler/handler.go:54
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:922
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1094
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/handler.go:227
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/router.go:84
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/router.go:161
+/usr/local/Cellar/go/1.14/libexec/src/net/http/server.go:2807
+/usr/local/Cellar/go/1.14/libexec/src/net/http/server.go:1895
+/usr/local/Cellar/go/1.14/libexec/src/runtime/asm_amd64.s:1373
+
+[WARN] 2020/07/04 14:48 Recovered from a route's Handler('github.com/zidni722/crud-user/app/web/controllers.(*UserController).UpdateUserHandler-fm')
+At Request: 200 /users/2 PUT ::1
+Trace: interface conversion: interface {} is nil, not models.User
+
+/usr/local/Cellar/go/1.14/libexec/src/runtime/panic.go:967
+/usr/local/Cellar/go/1.14/libexec/src/runtime/iface.go:260
+/Users/zidni/Sites/crud-user/app/web/controllers/user_controller.go:114
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/middleware/logger/logger.go:50
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/middleware/recover/recover.go:56
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/macro/handler/handler.go:54
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:922
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1094
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/handler.go:227
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/router.go:84
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/router.go:161
+/usr/local/Cellar/go/1.14/libexec/src/net/http/server.go:2807
+/usr/local/Cellar/go/1.14/libexec/src/net/http/server.go:1895
+/usr/local/Cellar/go/1.14/libexec/src/runtime/asm_amd64.s:1373
+
+[WARN] 2020/07/04 14:48 Recovered from a route's Handler('github.com/zidni722/crud-user/app/web/controllers.(*UserController).UpdateUserHandler-fm')
+At Request: 200 /users/2 PUT ::1
+Trace: interface conversion: interface {} is nil, not models.User
+
+/usr/local/Cellar/go/1.14/libexec/src/runtime/panic.go:967
+/usr/local/Cellar/go/1.14/libexec/src/runtime/iface.go:260
+/Users/zidni/Sites/crud-user/app/web/controllers/user_controller.go:114
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/middleware/logger/logger.go:50
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/middleware/recover/recover.go:56
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/macro/handler/handler.go:54
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:922
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1094
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/handler.go:227
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/router.go:84
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/router.go:161
+/usr/local/Cellar/go/1.14/libexec/src/net/http/server.go:2807
+/usr/local/Cellar/go/1.14/libexec/src/net/http/server.go:1895
+/usr/local/Cellar/go/1.14/libexec/src/runtime/asm_amd64.s:1373
+
+[WARN] 2020/07/04 14:48 Recovered from a route's Handler('github.com/zidni722/crud-user/app/web/controllers.(*UserController).UpdateUserHandler-fm')
+At Request: 200 /users/2 PUT ::1
+Trace: interface conversion: interface {} is nil, not models.User
+
+/usr/local/Cellar/go/1.14/libexec/src/runtime/panic.go:967
+/usr/local/Cellar/go/1.14/libexec/src/runtime/iface.go:260
+/Users/zidni/Sites/crud-user/app/web/controllers/user_controller.go:114
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/middleware/logger/logger.go:50
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/middleware/recover/recover.go:56
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/macro/handler/handler.go:54
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:922
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1094
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/handler.go:227
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/router.go:84
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/router.go:161
+/usr/local/Cellar/go/1.14/libexec/src/net/http/server.go:2807
+/usr/local/Cellar/go/1.14/libexec/src/net/http/server.go:1895
+/usr/local/Cellar/go/1.14/libexec/src/runtime/asm_amd64.s:1373
+
+[WARN] 2020/07/04 14:48 Recovered from a route's Handler('github.com/zidni722/crud-user/app/web/controllers.(*UserController).UpdateUserHandler-fm')
+At Request: 200 /users/2 PUT ::1
+Trace: interface conversion: interface {} is nil, not models.User
+
+/usr/local/Cellar/go/1.14/libexec/src/runtime/panic.go:967
+/usr/local/Cellar/go/1.14/libexec/src/runtime/iface.go:260
+/Users/zidni/Sites/crud-user/app/web/controllers/user_controller.go:114
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/middleware/logger/logger.go:50
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/middleware/recover/recover.go:56
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/macro/handler/handler.go:54
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:922
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1094
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/handler.go:227
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/router.go:84
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/router.go:161
+/usr/local/Cellar/go/1.14/libexec/src/net/http/server.go:2807
+/usr/local/Cellar/go/1.14/libexec/src/net/http/server.go:1895
+/usr/local/Cellar/go/1.14/libexec/src/runtime/asm_amd64.s:1373
+
+[WARN] 2020/07/04 14:48 Recovered from a route's Handler('github.com/zidni722/crud-user/app/web/controllers.(*UserController).UpdateUserHandler-fm')
+At Request: 200 /users/2 PUT ::1
+Trace: interface conversion: interface {} is nil, not models.User
+
+/usr/local/Cellar/go/1.14/libexec/src/runtime/panic.go:967
+/usr/local/Cellar/go/1.14/libexec/src/runtime/iface.go:260
+/Users/zidni/Sites/crud-user/app/web/controllers/user_controller.go:114
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/middleware/logger/logger.go:50
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/middleware/recover/recover.go:56
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/macro/handler/handler.go:54
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:922
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1094
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/handler.go:227
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/router.go:84
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/router.go:161
+/usr/local/Cellar/go/1.14/libexec/src/net/http/server.go:2807
+/usr/local/Cellar/go/1.14/libexec/src/net/http/server.go:1895
+/usr/local/Cellar/go/1.14/libexec/src/runtime/asm_amd64.s:1373
+
+[WARN] 2020/07/04 14:48 Recovered from a route's Handler('github.com/zidni722/crud-user/app/web/controllers.(*UserController).UpdateUserHandler-fm')
+At Request: 200 /users/2 PUT ::1
+Trace: interface conversion: interface {} is nil, not models.User
+
+/usr/local/Cellar/go/1.14/libexec/src/runtime/panic.go:967
+/usr/local/Cellar/go/1.14/libexec/src/runtime/iface.go:260
+/Users/zidni/Sites/crud-user/app/web/controllers/user_controller.go:114
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/middleware/logger/logger.go:50
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/middleware/recover/recover.go:56
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/macro/handler/handler.go:54
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:922
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1094
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/handler.go:227
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/router.go:84
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/router.go:161
+/usr/local/Cellar/go/1.14/libexec/src/net/http/server.go:2807
+/usr/local/Cellar/go/1.14/libexec/src/net/http/server.go:1895
+/usr/local/Cellar/go/1.14/libexec/src/runtime/asm_amd64.s:1373
+
+[WARN] 2020/07/04 14:48 Recovered from a route's Handler('github.com/zidni722/crud-user/app/web/controllers.(*UserController).UpdateUserHandler-fm')
+At Request: 200 /users/2 PUT ::1
+Trace: interface conversion: interface {} is nil, not models.User
+
+/usr/local/Cellar/go/1.14/libexec/src/runtime/panic.go:967
+/usr/local/Cellar/go/1.14/libexec/src/runtime/iface.go:260
+/Users/zidni/Sites/crud-user/app/web/controllers/user_controller.go:114
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/middleware/logger/logger.go:50
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/middleware/recover/recover.go:56
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/macro/handler/handler.go:54
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:922
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1094
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/handler.go:227
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/router.go:84
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/router.go:161
+/usr/local/Cellar/go/1.14/libexec/src/net/http/server.go:2807
+/usr/local/Cellar/go/1.14/libexec/src/net/http/server.go:1895
+/usr/local/Cellar/go/1.14/libexec/src/runtime/asm_amd64.s:1373
+
+[WARN] 2020/07/04 14:48 Recovered from a route's Handler('github.com/zidni722/crud-user/app/web/controllers.(*UserController).UpdateUserHandler-fm')
+At Request: 200 /users/2 PUT ::1
+Trace: interface conversion: interface {} is nil, not models.User
+
+/usr/local/Cellar/go/1.14/libexec/src/runtime/panic.go:967
+/usr/local/Cellar/go/1.14/libexec/src/runtime/iface.go:260
+/Users/zidni/Sites/crud-user/app/web/controllers/user_controller.go:114
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/middleware/logger/logger.go:50
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/middleware/recover/recover.go:56
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1208
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1217
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/macro/handler/handler.go:54
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:922
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/context/context.go:1094
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/handler.go:227
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/router.go:84
+/Users/zidni/go/pkg/mod/github.com/kataras/iris@v11.1.1+incompatible/core/router/router.go:161
+/usr/local/Cellar/go/1.14/libexec/src/net/http/server.go:2807
+/usr/local/Cellar/go/1.14/libexec/src/net/http/server.go:1895
+/usr/local/Cellar/go/1.14/libexec/src/runtime/asm_amd64.s:1373
+
+[ERRO] 2020/07/04 14:50 http: Server closed
+Now listening on: http://localhost:9090
+Application started. Press CMD+C to shut down.
+[INFO] 2020/07/04 14:50 200 117.814559ms ::1 PUT /users/2
+[INFO] 2020/07/04 14:50 200 496.68µs ::1 GET /users
+[INFO] 2020/07/04 14:50 200 423.433µs ::1 GET /users
+[ERRO] 2020/07/04 14:52 http: Server closed
+Now listening on: http://localhost:9090
+Application started. Press CMD+C to shut down.
+[INFO] 2020/07/04 14:52 200 131.401999ms ::1 PUT /users/2
+[INFO] 2020/07/04 14:52 200 1.673242ms ::1 GET /users
+[INFO] 2020/07/04 14:52 200 168.491771ms ::1 PUT /users/2
+[INFO] 2020/07/04 14:52 200 425.75µs ::1 GET /users
+[INFO] 2020/07/04 14:53 422 1.400561ms ::1 PUT /users/0
+[INFO] 2020/07/04 14:53 422 1.853879ms ::1 PUT /users/0
+[INFO] 2020/07/04 14:53 422 909.824µs ::1 PUT /users/0
+[INFO] 2020/07/04 14:53 422 1.981364ms ::1 PUT /users/0
+[INFO] 2020/07/04 14:54 200 81.116246ms ::1 PUT /users/2
+[ERRO] 2020/07/04 15:02 http: Server closed
+Now listening on: http://localhost:9090
+Application started. Press CMD+C to shut down.
+[INFO] 2020/07/04 15:04 {[1] ::1 ▶ POST:/users 0xc0004151e0 {<nil> asep asep@gmail.com cikampek password} 0x52ab118}
+[INFO] 2020/07/04 15:04 201 149.929849ms ::1 POST /users
+[INFO] 2020/07/04 15:04 200 2.32862ms ::1 GET /users
+[INFO] 2020/07/04 15:04 422 3.208428ms ::1 DELETE /users/8
+[INFO] 2020/07/04 15:04 422 465.565µs ::1 DELETE /users/3
+[INFO] 2020/07/04 15:04 422 1.525942ms ::1 DELETE /users/3
+[INFO] 2020/07/04 15:05 200 567.565µs ::1 GET /users
+[INFO] 2020/07/04 15:05 422 2.035598ms ::1 DELETE /users/3
+[INFO] 2020/07/04 15:05 200 1.084256ms ::1 GET /users/3
+[INFO] 2020/07/04 15:05 200 207.177374ms ::1 PUT /users/3
+[INFO] 2020/07/04 15:05 200 825.398µs ::1 GET /users
+[ERRO] 2020/07/04 15:06 http: Server closed
+Now listening on: http://localhost:9090
+Application started. Press CMD+C to shut down.
+[INFO] 2020/07/04 15:06 200 114.989618ms ::1 DELETE /users/3
+[INFO] 2020/07/04 15:06 200 586.282µs ::1 GET /users
+[ERRO] 2020/07/04 16:11 http: Server closed
+Now listening on: http://localhost:9090
+Application started. Press CMD+C to shut down.
+[INFO] 2020/07/04 16:45 401 11.471083ms ::1 POST /login
+[ERRO] 2020/07/04 16:51 http: Server closed
+Now listening on: http://localhost:9090
+Application started. Press CMD+C to shut down.
+[INFO] 2020/07/04 16:51 401 5.599398ms ::1 POST /login
+[ERRO] 2020/07/04 16:53 http: Server closed
+Now listening on: http://localhost:9090
+Application started. Press CMD+C to shut down.
+[INFO] 2020/07/04 16:53 401 10.447337ms ::1 POST /login
+[INFO] 2020/07/04 16:53 401 1.375897ms ::1 POST /login
+[INFO] 2020/07/04 16:53 401 827.164µs ::1 POST /login
+[INFO] 2020/07/04 16:53 401 1.408547ms ::1 POST /login
+[INFO] 2020/07/04 16:53 401 661.317µs ::1 POST /login
+[INFO] 2020/07/04 16:53 401 2.941196ms ::1 POST /login
+[INFO] 2020/07/04 16:53 401 1.146524ms ::1 POST /login
+[INFO] 2020/07/04 16:53 401 571.994µs ::1 POST /login
+[INFO] 2020/07/04 16:53 401 594.992µs ::1 POST /login
+[INFO] 2020/07/04 16:53 401 1.265484ms ::1 POST /login
+[INFO] 2020/07/04 16:53 401 802.651µs ::1 POST /login
+[ERRO] 2020/07/04 16:54 http: Server closed
+Now listening on: http://localhost:9090
+Application started. Press CMD+C to shut down.
+[INFO] 2020/07/04 16:54 401 35.977358ms ::1 POST /login
+[INFO] 2020/07/04 16:54 401 1.261261ms ::1 POST /login
+[INFO] 2020/07/04 16:54 401 744.049µs ::1 POST /login
+[INFO] 2020/07/04 16:54 401 790.574µs ::1 POST /login
+[INFO] 2020/07/04 16:54 401 1.622705ms ::1 POST /login
+[INFO] 2020/07/04 16:54 401 696.971µs ::1 POST /login
+[INFO] 2020/07/04 16:54 401 789.59µs ::1 POST /login
+[INFO] 2020/07/04 16:54 401 1.326463ms ::1 POST /login
+[INFO] 2020/07/04 16:54 401 1.000856ms ::1 POST /login
+[INFO] 2020/07/04 16:54 401 1.344044ms ::1 POST /login
+[INFO] 2020/07/04 16:54 401 1.951544ms ::1 POST /login
+[INFO] 2020/07/04 16:54 401 733.064µs ::1 POST /login
+[INFO] 2020/07/04 16:54 401 947.831µs ::1 POST /login
+[INFO] 2020/07/04 16:54 401 1.632956ms ::1 POST /login
+[INFO] 2020/07/04 16:54 401 685.881µs ::1 POST /login
+[INFO] 2020/07/04 16:54 401 645.408µs ::1 POST /login
+[INFO] 2020/07/04 16:54 401 2.378747ms ::1 POST /login
+[INFO] 2020/07/04 16:54 401 653.967µs ::1 POST /login
+[INFO] 2020/07/04 16:54 401 1.063643ms ::1 POST /login
+[INFO] 2020/07/04 16:54 401 647.164µs ::1 POST /login
+[INFO] 2020/07/04 16:54 401 1.403959ms ::1 POST /login
+[INFO] 2020/07/04 16:54 401 636.266µs ::1 POST /login
+[INFO] 2020/07/04 16:54 401 744.144µs ::1 POST /login
+[INFO] 2020/07/04 16:54 401 731.196µs ::1 POST /login
+[INFO] 2020/07/04 16:54 401 1.74609ms ::1 POST /login
+[ERRO] 2020/07/04 16:55 http: Server closed
+Now listening on: http://localhost:9090
+Application started. Press CMD+C to shut down.
+[INFO] 2020/07/04 16:55 401 4.014537ms ::1 POST /login
+[INFO] 2020/07/04 16:55 401 658.949µs ::1 POST /login
+[ERRO] 2020/07/04 16:55 http: Server closed
+Now listening on: http://localhost:9090
+Application started. Press CMD+C to shut down.
+[INFO] 2020/07/04 16:56 401 8.201841ms ::1 POST /login
+[INFO] 2020/07/04 16:56 401 5.580115ms ::1 POST /login
+[INFO] 2020/07/04 16:56 401 1.267551ms ::1 POST /login
+[INFO] 2020/07/04 16:56 401 2.256967ms ::1 POST /login
+[INFO] 2020/07/04 16:56 401 635.115µs ::1 POST /login
+[INFO] 2020/07/04 16:56 401 652.965µs ::1 POST /login
+[INFO] 2020/07/04 16:56 401 2.108343ms ::1 POST /login
+[INFO] 2020/07/04 16:56 400 396.949µs ::1 POST /login
+[INFO] 2020/07/04 16:56 401 2.334297ms ::1 POST /login
+[INFO] 2020/07/04 16:56 400 298.017µs ::1 POST /login
+[INFO] 2020/07/04 16:56 401 1.823797ms ::1 POST /login
+[ERRO] 2020/07/04 16:57 http: Server closed
+Now listening on: http://localhost:9090
+Application started. Press CMD+C to shut down.
+[INFO] 2020/07/04 16:58 401 13.796844ms ::1 POST /login
+[INFO] 2020/07/04 16:58 401 1.341166ms ::1 POST /login
+[INFO] 2020/07/04 16:58 401 2.123603ms ::1 POST /login
+[INFO] 2020/07/04 16:59 200 2.404827ms ::1 POST /login
+[ERRO] 2020/07/04 17:00 http: Server closed
+Now listening on: http://localhost:9090
+Application started. Press CMD+C to shut down.
+[INFO] 2020/07/04 17:06 422 8.692612ms ::1 GET /users/3
+[INFO] 2020/07/04 17:06 200 2.147715ms ::1 GET /users/1
+[INFO] 2020/07/04 17:06 401 44.415µs ::1 GET /users/1
+[INFO] 2020/07/04 17:06 200 647.89µs ::1 GET /users/1
+[INFO] 2020/07/04 17:06 401 67.726µs ::1 GET /users
+[INFO] 2020/07/04 17:07 200 841.901µs ::1 GET /users
+[ERRO] 2020/07/04 17:16 http: Server closed
+Now listening on: http://localhost:9090
+Application started. Press CMD+C to shut down.
+[INFO] 2020/07/04 17:22 200 16.286997ms ::1 POST /login
+[INFO] 2020/07/04 17:23 200 3.255472ms ::1 POST /login
+[INFO] 2020/07/04 17:29 200 4.037552ms ::1 POST /login
+[INFO] 2020/07/04 17:29 200 3.788973ms ::1 POST /login
+[INFO] 2020/07/04 17:30 200 2.21109ms ::1 GET /users
+[INFO] 2020/07/04 17:31 401 40.087µs ::1 GET /users
+[INFO] 2020/07/04 17:31 401 16.491µs ::1 GET /users
+[INFO] 2020/07/04 17:31 401 26.46µs ::1 GET /users
+[INFO] 2020/07/04 17:31 200 7.106237ms ::1 POST /login
+[INFO] 2020/07/04 17:31 200 2.796583ms ::1 GET /users
+[INFO] 2020/07/04 17:32 200 5.061013ms ::1 GET /users/1
+[INFO] 2020/07/04 17:35 200 2.564202ms ::1 GET /users/1
+[INFO] 2020/07/04 17:36 401 36.885µs ::1 POST /users
+[INFO] 2020/07/04 17:37 {[1] ::1 ▶ POST:/users 0xc000418ea0 {<nil> ajeng722 ajeng@gmail.com bogor password} 0x52bd3f8}
+[INFO] 2020/07/04 17:37 201 176.443149ms ::1 POST /users
+[INFO] 2020/07/04 17:39 200 184.423416ms ::1 PUT /users/1
+[INFO] 2020/07/04 17:39 200 4.407796ms ::1 GET /users
+[INFO] 2020/07/04 17:40 200 11.539803ms ::1 GET /users
+[INFO] 2020/07/04 17:41 200 38.562302ms ::1 DELETE /users/4
+[INFO] 2020/07/04 17:41 200 1.306024ms ::1 GET /users
+[ERRO] 2020/07/04 17:45 http: Server closed
